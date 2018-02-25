@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FTPTool</string>
+    <string name="title_activity_main">FTPTool</string>
+    <string name="title_activity_list_file">ListFileActivity</string>
+    <string name="title_activity_login_register">LoginRegisterActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_ftpfile_list">FTPTool</string>
+    <string name="title_activity_ftpupload">上传到ftp</string>
+    <string name="title_activity_trans_control">TransControlActivity</string>
+    <string name="title_activity_ftpdownload_pos_set">FTPDownloadPosSetActivity</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#44000000"
+    android:gravity="center">
+
+    <LinearLayout
+        android:minWidth="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_white_round_border"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/tv_trans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="14sp"
+            android:text="正在上传...10%"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="left"
+
+            />
+
+
+        <ProgressBar
+            android:id="@+id/progress_trans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:progress="10"
+            android:max="100"
+            android:backgroundTint="@color/colorlightGray"
+
+            style="?android:attr/progressBarStyleHorizontal"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

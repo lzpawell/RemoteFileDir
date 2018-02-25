@@ -1,0 +1,67 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    tools:context="xin.lzp.remotefiledir.ui.fragment.LoginFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_corner_border"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edt_user_id"
+                android:hint="user id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:textSize="14sp"
+                android:textColor="@color/colorPrimaryText"
+                android:padding="10dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/colorlightGray"/>
+
+            <EditText
+                android:id="@+id/edt_password"
+                android:hint="password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:textSize="14sp"
+                android:inputType="textPassword"
+                android:textColor="@color/colorPrimaryText"
+                android:padding="10dp"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="登录"
+            android:textSize="14sp"
+            android:textColor="@color/colorWormWhiteText"
+            android:background="@drawable/style_btn"/>
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorTextTips"
+            android:text="忘记密码？"
+            android:textSize="14sp"
+            android:layout_gravity="right"/>
+    </LinearLayout>
+
+</FrameLayout>
